@@ -19,6 +19,7 @@ pids
 lib-cov
 
 # Coverage directory used by tools like istanbul
+
 coverage
 *.lcov
 
@@ -39,6 +40,9 @@ build/Release
 
 # Dependency directories
 node_modules/
+
+# Dependency directories
+public/bundle.js
 
 # Yarn Integrity file
 .yarn-integrity
