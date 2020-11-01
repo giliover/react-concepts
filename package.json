@@ -2,5 +2,6 @@
   "name": "crv",
   "version": "1.0.0",
   "main": "index.js",
+  "author": "giliover <giliover@hotmail.com>",
   "license": "MIT"
 }
