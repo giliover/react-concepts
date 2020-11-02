@@ -1,4 +1,4 @@
 # converting:
 yarn webpack --mode development  
 # or develoment:
-yarn webpack serve --env mode  
+yarn webpack-dev-server --content-base
