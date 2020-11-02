@@ -10,3 +10,5 @@
 # componentization:
     https://github.com/giliover/react_concepts/tree/componentization
 
+# props_and_states:
+    https://github.com/giliover/react_concepts/tree/props_and_states
