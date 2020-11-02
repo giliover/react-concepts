@@ -1,2 +1,5 @@
-const soma = ( a, b ) => a + b
-console.log(soma( 2, 4))
+import React from "react"
+import { render } from "react-dom"
+import App from "./App"
+
+render(<App/> , document.getElementById("react_concepts"))
