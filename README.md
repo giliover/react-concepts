@@ -1,4 +1,4 @@
-# concepts_react
+# concepts React
     study day 01/10
 
 # configuring babel:
@@ -10,5 +10,5 @@
 # componentization:
     https://github.com/giliover/react_concepts/tree/componentization
 
-# props_and_states:
+# props and states:
     https://github.com/giliover/react_concepts/tree/props_and_states
