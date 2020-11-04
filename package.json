@@ -10,8 +10,11 @@
     "@babel/preset-react": "^7.12.1",
     "babel": "^6.23.0",
     "babel-loader": "^8.1.0",
+    "css-loader": "^5.0.0",
+    "file-loader": "^6.2.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "style-loader": "^2.0.0",
     "webpack": "^5.3.2"
   },
   "devDependencies": {
