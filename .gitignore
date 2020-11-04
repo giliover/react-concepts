@@ -47,6 +47,9 @@ public/bundle.js
 # Yarn Integrity file
 .yarn-integrity
 
+# Yarn Integrity file
+yarn.lock
+
 # dotenv environment variables file
 .env
 .env.test
