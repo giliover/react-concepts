@@ -12,3 +12,6 @@
 
 # props and states:
     https://github.com/giliover/react_concepts/tree/props_and_states
+
+# importing css and images:
+    https://github.com/giliover/react_concepts/tree/importing_css_and_images
