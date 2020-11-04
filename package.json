@@ -4,6 +4,9 @@
   "main": "index.js",
   "author": "giliover <giliover@hotmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "webpack-dev-server --content-base"
+  },
   "dependencies": {
     "@babel/core": "^7.12.3",
     "@babel/preset-env": "^7.12.1",
