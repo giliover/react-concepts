@@ -1,0 +1,29 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Dependency directories
+node_modules/
+
+# Dependency directories
+public/bundle.js
+
+# Yarn Integrity file
+.yarn-integrity
+
+# Yarn Integrity file
+yarn.lock
+
+# dotenv environment variables file
+.env
+.env.test
+
+# Gatsby files
+.cache/
