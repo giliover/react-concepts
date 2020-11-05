@@ -23,11 +23,14 @@ function App() {
     await api
     .post( 'repositories', _repo )
     .then( ({ data }) => setRepo( [ ...repo, data ] ) ) 
-    .catch((err) => console.log(err.msg))
+    .catch((err) => console.log(err))
   }
 
   async function handleRemoveRepository(id) {
-    // TODO
+    await api
+    .delete(`repositories/${id}`)
+    .then( _ => setRepo( repo.filter( _repo => _repo.id !== id ) ))
+    .catch((err) => console.log(err))
   }
 
   return (
