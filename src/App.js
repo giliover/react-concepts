@@ -13,6 +13,12 @@ function App() {
       })
   }, [])
 
+  const _repo = {
+    url: "https://github.com/Rocketseat/umbriel",
+    title: "Umbriel",
+    techs: ["Node", "Desafio React", "TypeScript"]
+  }
+
   async function handleAddRepository() {
     await api
     .post( 'repositories', _repo )
