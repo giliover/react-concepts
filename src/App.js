@@ -14,7 +14,10 @@ function App() {
   }, [])
 
   async function handleAddRepository() {
-    // TODO
+    await api
+    .post( 'repositories', _repo )
+    .then( ({ data }) => setRepo( [ ...repo, data ] ) ) 
+    .catch((err) => console.log(err.msg))
   }
 
   async function handleRemoveRepository(id) {
